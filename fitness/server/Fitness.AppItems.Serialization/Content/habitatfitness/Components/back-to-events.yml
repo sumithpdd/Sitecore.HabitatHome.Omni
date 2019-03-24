@@ -1,0 +1,24 @@
+﻿---
+ID: "0eb6bba0-b0dd-5a36-be5a-4f64c9d1135d"
+Parent: "0cbd6a9f-4e26-546b-8891-14156c1cfdc5"
+Template: "685d81a4-8b3b-50a2-b13c-d6ac8301408e"
+Path: "/sitecore/content/habitatfitness/Components/back-to-events"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d21b652-0861-5871-af26-2d90fc44b9e3"
+      Hint: title
+      Value: Back to Events
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190324T095611Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"

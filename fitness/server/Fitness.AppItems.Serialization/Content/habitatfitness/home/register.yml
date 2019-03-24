@@ -26,15 +26,15 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{A3D7149C-5EA7-58E2-B1A5-8F5FAC4E2B55}"
+              uid="{591D96AD-8F66-5C79-A2C6-2F49A82E1CF7}"
               p:after="p[@uid='{83352061-4FCC-54FB-8D7C-76600CB9B874}']"
-              s:rname="BreadcrumbNavigation"
+              s:rname="DetailNavigation"
               s:id="{C42C4419-0E19-5DEB-A3D8-BD5CE1F84B03}"
               s:par=""
               s:ph="/hf-nav" />
             <r
               uid="{3CEFE02D-F152-51CD-9A2B-B2F80959BBB6}"
-              p:after="r[@uid='{A3D7149C-5EA7-58E2-B1A5-8F5FAC4E2B55}']"
+              p:after="r[@uid='{591D96AD-8F66-5C79-A2C6-2F49A82E1CF7}']"
               s:rname="RegistrationWizard"
               s:id="{7719D373-6ABA-5E32-BCE0-CA663AF72E08}"
               s:par=""

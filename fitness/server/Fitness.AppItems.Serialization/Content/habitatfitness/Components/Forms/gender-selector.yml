@@ -19,6 +19,14 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{C55B483C-EA7F-4E76-A066-985F7D9396CA}"
+    - ID: "62e8e955-cf00-420b-94e5-196c6a1c8d4d"
+      Hint: options
+      Type: Multilist
+      Value: |
+        {591E6E03-61F6-53B8-BB71-3A4D29164F4F}
+        {2A20299E-7544-583D-8B56-713FF5704055}
+        {901273E2-7EE4-576E-AC4C-9217A5D25171}
+        {A3BA7EF5-FA9C-5E52-946D-551A58F8D4BA}
     - ID: "cf45aba9-aa4e-5df2-8cab-3530af93176a"
       Hint: selectTitle
       Value: Your gender

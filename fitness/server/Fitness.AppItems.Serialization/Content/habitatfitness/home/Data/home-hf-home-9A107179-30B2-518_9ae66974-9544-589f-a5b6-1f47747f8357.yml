@@ -1,0 +1,28 @@
+﻿---
+ID: "9ae66974-9544-589f-a5b6-1f47747f8357"
+Parent: "14c76265-ddfa-5b50-8712-4e9e7bf8c3d2"
+Template: "bf25247c-0c9a-57a2-b9e2-c3313c9e9992"
+Path: "/sitecore/content/habitatfitness/home/Data/home-hf-home-9A107179-30B2-518A-8E4D-8CF2315151E0-0-ProductRecommendationList-4"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "ProductRecommendationList-4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190324T101129Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "adbc7315-0205-5b63-b129-4221e4715b62"
+      Hint: title
+      Value: Gear just for you

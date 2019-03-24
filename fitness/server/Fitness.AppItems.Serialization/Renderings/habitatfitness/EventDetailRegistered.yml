@@ -24,7 +24,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "/sitecore/content/habitatfitness/Components/event-detail"
+  Value: ./Data|/sitecore/content/habitatfitness/Components/EventDetailRegistered
 Languages:
 - Language: en
   Fields:

@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:./*[@@name='Data']/*[@@name='Labels']/*[@@templateid='{80F32942-AFAB-59C0-91F8-AF33CBF166F9}']"
+  Value: "query:./*[@@templatename='event-label']"
 - ID: "39847666-389d-409b-95bd-f2016f11eed5"
   Hint: Unversioned
   Type: Checkbox
@@ -15,7 +15,7 @@ SharedFields:
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Type: Checkbox
-  Value: 0
+  Value: 1
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: multilist

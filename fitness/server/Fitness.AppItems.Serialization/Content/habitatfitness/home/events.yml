@@ -12,27 +12,6 @@ SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
-- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
-  Hint: __Renderings
-  Type: layout
-  Value: |
-    <r xmlns:p="p" xmlns:s="s"
-      p:p="1">
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-        <r
-          uid="{4A517AEB-BD9A-4B2B-A61E-265E687F4925}"
-          p:after="p[@uid='{83352061-4FCC-54FB-8D7C-76600CB9B874}']"
-          s:id="{C42C4419-0E19-5DEB-A3D8-BD5CE1F84B03}"
-          s:ph="/hf-nav" />
-        <r
-          uid="{94D10C6B-1F5C-4AAD-9EA9-85950F470A82}"
-          p:after="*[1=2]"
-          s:id="{18CB84F4-8830-5C2D-A6B8-C96C3F5A23DA}"
-          s:par="take=8&amp;showInGrid=1&amp;showTitle&amp;showEventDescription&amp;personalize=1&amp;showLoadMore=1"
-          s:ph="/hf-body" />
-      </d>
-    </r>
 Languages:
 - Language: en
   Fields:
@@ -42,6 +21,31 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F6C4F7D7-6795-58E7-A571-1FA1C373187D}"
+              p:after="p[@uid='{83352061-4FCC-54FB-8D7C-76600CB9B874}']"
+              s:rname="DetailNavigation"
+              s:id="{C42C4419-0E19-5DEB-A3D8-BD5CE1F84B03}"
+              s:par=""
+              s:ph="/hf-nav" />
+            <r
+              uid="{51B72646-D228-591E-A0C2-5E82C935C831}"
+              p:after="*[1=2]"
+              s:rname="EventList"
+              s:ds="{484EDA41-425C-5CD5-B5C7-F71D4DEDBD01}"
+              s:id="{18CB84F4-8830-5C2D-A6B8-C96C3F5A23DA}"
+              s:par="showInGrid=1&amp;showTitle=0&amp;showEventDescription=0&amp;personalize=0&amp;showLoadMore=1"
+              s:ph="/hf-body" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20181027T234953Z

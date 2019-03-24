@@ -74,7 +74,6 @@ Task("Build-Solution").Does(() => {
 
 Task("Publish-Projects").Does(() => {
     PublishProjects($"{configuration.ProjectSrcFolder}\\Fitness.AppItems", configuration.WebsiteRoot);
-    PublishProjects($"{configuration.ProjectSrcFolder}\\Fitness.Automation", configuration.WebsiteRoot);
     PublishProjects($"{configuration.ProjectSrcFolder}\\Fitness.Collection", configuration.WebsiteRoot);
     PublishProjects($"{configuration.ProjectSrcFolder}\\Fitness.Personalization", configuration.WebsiteRoot);
     PublishProjects($"{configuration.ProjectSrcFolder}\\Fitness.Segmentation", configuration.WebsiteRoot);
@@ -93,27 +92,7 @@ Task("Publish-XConnect").Does(()=>{
         $"{configuration.ProjectSrcFolder}\\Fitness.Collection.Model.Deploy\\xmodels\\*",
         $"{configuration.XConnectIndexerRoot}\\App_Data\\Models"
     );
-    DeployFiles(
-        $"{configuration.ProjectSrcFolder}\\Fitness.Automation\\bin\\Sitecore.HabitatHome.Fitness.Automation.dll",
-        $"{configuration.XConnectAutomationServiceRoot}"
-    );
-    DeployFiles(
-        $"{configuration.ProjectSrcFolder}\\Fitness.Automation\\bin\\Sitecore.HabitatHome.Fitness.Collection.Model.dll",
-        $"{configuration.XConnectAutomationServiceRoot}"
-    );
-    DeployFiles(
-        $"{configuration.ProjectSrcFolder}\\Fitness.Automation.Plugins\\sitecore\\shell\\client\\applications\\MarketingAutomation\\plugins\\HabitatFitness\\*",
-        $"{configuration.WebsiteRoot}\\sitecore\\shell\\client\\Applications\\MarketingAutomation\\plugins\\HabitatFitness"
-    );
-    DeployFiles(
-        $"{configuration.ProjectSrcFolder}\\Fitness.Collection.Model.Deploy\\automation\\*",
-        $"{configuration.XConnectAutomationServiceRoot}\\App_Data\\Config\\sitecore"
-    );
-    DeployFiles(
-        $"{configuration.ProjectSrcFolder}\\Fitness.Automation\\App_Data\\Config\\Sitecore\\MarketingAutomation\\*.xml",
-        $"{configuration.XConnectAutomationServiceRoot}\\App_Data\\Config\\sitecore\\MarketingAutomation "
-    );
-
+   
 });
 Task("Modify-Unicorn-Source-Folder").Does(() => {
     var zzzDevSettingsFile = File($"{configuration.WebsiteRoot}/App_config/Include/Sitecore.HabitatHome.Fitness/z.Sitecore.HabitatHome.Fitness.DevSettings.config");
@@ -175,8 +154,6 @@ Task("Apply-Xml-Transform").Does(() => {
 	// target website transforms 
 	Transform($"{configuration.ProjectSrcFolder}\\Fitness.AppItems", configuration.WebsiteRoot);
 
-	// xconnect transforms
-	Transform($"{configuration.ProjectSrcFolder}\\Fitness.Automation\\App_Data\\Config\\sitecore\\MarketingAutomation", $"{configuration.XConnectAutomationServiceRoot}\\App_Data\\Config\\sitecore\\MarketingAutomation");
-});
+ });
 
 RunTarget(target);
