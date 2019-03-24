@@ -62,10 +62,20 @@ Task("Copy-Sitecore-Lib")
         CopyFiles(files, destination);
 }); 
 
+Task("Copy-902Sitecore")
+    .Does(()=> {
+        var files = GetFiles( 
+            $"{configuration.ProjectSrcFolder}/lib/*.dll");
+        var destination = $"{configuration.WebsiteRoot}\\bin";
+        EnsureDirectoryExists(destination);
+        CopyFiles(files, destination);
+}); 
+
 Task("Publish-All-Projects")
 .IsDependentOn("Build-Solution")
 .IsDependentOn("Publish-Projects")
-.IsDependentOn("Publish-XConnect");
+.IsDependentOn("Publish-XConnect")
+.IsDependentOn("Copy-902Sitecore");
 
 
 Task("Build-Solution").Does(() => {
